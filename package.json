@@ -1,0 +1,33 @@
+{
+  "name": "solid-rotary-phone",
+  "version": "1.0.0",
+  "description": "Smart TV Content Recommender and Assistant using Gemini AI",
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "dev:backend": "nodemon backend/src/server.js",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "install:all": "npm install && cd frontend && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crha-hFiecif/solid-rotary-phone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crha-hFiecif/solid-rotary-phone/issues"
+  },
+  "homepage": "https://github.com/crha-hFiecif/solid-rotary-phone#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "nodemon": "^2.0.22"
+  }
+}
