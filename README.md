@@ -2,11 +2,23 @@
 
 A modern web application that uses Google's Gemini AI to enhance the Smart TV user experience by providing personalized content recommendations, answering questions about shows/movies, and helping users navigate TV features through natural language.
 
+
 ## Features
 
 - **Personalized Content Recommendations**: Get TV show and movie recommendations based on your viewing history
+  
+https://github.com/user-attachments/assets/a77e3866-54e7-4d41-beda-ba23ff35734e
+
 - **Content Explorer**: Ask questions about shows and movies to learn more about them
+
+https://github.com/user-attachments/assets/a215017c-c39e-461f-9e0d-97d324175cd1
+  
 - **Feature Guide**: Get help with TV features and settings through natural language queries
+
+https://github.com/user-attachments/assets/be4e1795-e8cb-4ad1-aa16-bf0226fce70a
+
+
+  
 
 ## Tech Stack
 
@@ -24,8 +36,7 @@ A modern web application that uses Google's Gemini AI to enhance the Smart TV us
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/smart-tv-assistant.git
-   cd smart-tv-assistant
+   git clone this repos
    ```
 
 2. Install dependencies:
